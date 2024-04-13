@@ -1,0 +1,687 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red solid red; */
+}
+.container{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red solid black;
+    background-image: url(image/hacked-computer-desktop-artistry_1100027-1945.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+      
+}
+.sec1{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red solid blue; */
+    background-color: black;
+    padding: 10px 0px;
+    
+    
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    
+   
+}
+.nav img{
+
+    width: 25%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.nav img:hover {
+    transform: scale(1.1);
+}
+nav ul{
+    display: none;
+}
+nav ul li{
+    list-style-type: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.nav ul li:hover {
+    transform: scale(1.05);
+}
+nav ul li a{
+text-decoration: none;
+}
+@keyframes customHover {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.nav ul li:hover {
+    animation: customHover 0.5s ease-in-out; 
+}
+
+.login{
+border: 1px solid red solid white;
+padding:13px 30px ;
+color: white;
+font-family: poppins;
+letter-spacing: 1px solid red;
+margin-left: 300px;
+transition: 0.8s;
+overflow: hidden;
+
+
+}
+.login:hover{
+
+transform: scale(1.05);
+color: crimson;
+cursor: pointer;
+}
+
+.hambugger{
+color: white;
+font-size: 50px;
+cursor: pointer;
+transition: transform 0.3s ease-in-out;
+
+}
+.hambugger:hover {
+    transform: scale(1.1);
+}
+h1{
+font-size: 50px;
+color: white;
+font-weight: bold;
+font-family: poppins;
+text-transform: uppercase;
+text-align: center;
+margin-top: 30px;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
+}
+.smart {
+    font-size: 30px;
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0 0 10px #FE6B8B, 0 0 20px #FF8E53, 0 0 30px #FE6B8B, 0 0 40px #FF8E53;
+    animation: gradient 5s ease infinite;
+    transition: transform 0.3s ease;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.smart:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #FE6B8B, 0 0 30px #FF8E53, 0 0 45px #FE6B8B, 0 0 60px #FF8E53;
+}
+.text{
+width: 100%;
+height: 100%;
+/* border: 1px solid red solid green; */
+
+}
+.no{
+color: white;
+font-size: 25px;
+text-align: center;
+line-height: 30px;
+margin-top: 50px;
+
+
+}
+.box{
+width: 100%;
+height: 100%;
+/* border: 1px solid red solid red; */
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 35px;
+margin-top: 40px;
+}
+.small{
+width: 30%;
+height: 30%;
+border: 1px solid red solid white;
+padding: 15px 0;
+border: none;
+text-align: center;
+background-color: blue;
+color: white;
+font-family: poppins;
+font-weight: bold;
+cursor: pointer;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.smal{
+width: 20%;
+height: 30%;
+border: 1px solid red solid white;
+border: none;
+padding: 10px 0;
+text-align: center;
+background-color: rgb(94, 93, 93);
+color: white;
+font-family: poppins;
+font-weight: bold;
+cursor: pointer;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
+}
+.small:hover{
+border: 1px solid red solid white;
+background-color: #007BFF; 
+transform: scale(1.05);
+transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+
+}
+.smal:hover{
+border: 1px solid red solid white;
+background-color: #007BFF;
+transform: scale(1.05); 
+transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+}
+@keyframes press {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.small:active, .smal:active {
+    animation: press 0.2s;
+}
+.box1{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red solid yellow; */
+    border: none;
+    margin-top: 50px;
+    background-color: #D48E33;
+    padding-bottom: 100px;
+   
+}
+
+#pla{
+    
+    font-size: 20px;
+    background-color: rgb(224, 223, 223);
+    padding: 30px 30px ;
+    border-radius: 50%;
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
+.vid{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    width: 90%;
+    border-radius: 10px;  
+}
+.choose {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+    width: 40%;
+    background-color: #DC3E08;
+    margin: auto;
+    font-family: poppins;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.choose:hover {
+    background-color: #FF6347;
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.The{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;  
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    
+    
+}
+.Quick{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: poppins;
+    margin-top: 30px; 
+    text-shadow: 1px solid red 1px solid red 2px rgba(0,0,0,0.3);    
+}
+.To{
+    color: white;
+    font-size: 18px ;
+    text-align: center;
+    margin-top: 30px; 
+    font-family:  Arial, Helvetica, sans-serif;
+    line-height: 22px;  
+    text-shadow: 1px solid red 1px solid red 2px rgba(0,0,0,0.3); 
+}
+.Get{
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    width: 25%;
+    background-color: #DC3E08;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+    transform: scale(1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.Get:hover {
+    background-color: #FF6347;
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.box2{
+    width: 100%;
+  height: 100%;
+    /* border: 1px solid red solid yellow; */
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+
+}
+.one{
+width: 100%;
+min-height: 100px;
+/* border: 3px solid rgb(211, 13, 13); */
+}
+.two{
+    width: 100%;
+    min-height: 100px;
+    /* border: 3px solid rgb(219, 7, 7); */
+
+
+}
+
+.image{
+    display: none;
+}
+
+.design{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+    line-height: 70px; 
+    float: left;
+}
+.speed{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: poppins;
+    margin-top: 30px; 
+    text-shadow: 1px solid red 1px solid red 2px rgba(0,0,0,0.3);   
+}
+.para{
+    color: white;
+    font-size: 17px ;
+    text-align: center;
+    margin-top: 30px; 
+    font-family: sans-serif;
+    line-height: 22px;  
+    text-shadow: 1px solid red 1px solid red 2px rgba(0,0,0,0.3);   
+}
+.create {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0px;
+    width: 35%;
+    background-color: blue;
+    margin: auto;
+    font-family: sans-serif;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+
+.create:hover {
+    background-color: #FF6347;
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.story-author-name {
+    width: 330px;
+    max-width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    display: block;
+    font-size: 1.55em;
+    font-weight: 500;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 250px;
+}
+.story-author-image {
+    width: 55px;
+    height: 55px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+    border-radius: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-inline-end: 15px;
+}
+strong{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/* blockquote{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 25px;
+    line-height: 30px;
+    
+} */
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    *{
+        /* border: 1px solid red solid red; */
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .nav img{
+
+        width: 45%;
+       
+        
+    } 
+   
+    .login{
+        display: none;
+    }
+    .box{
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+    .small{
+        width: 70%;
+        
+    }
+    .smal{
+        width: 70%;
+    }
+    .The{
+        font-size: 25px;
+    }
+    .Quick{
+        font-size: 20px;
+    }
+    .choose{
+        width: 70%;
+        text-transform: uppercase;
+    }
+    .vid{
+        margin-top: 30px;
+    }
+    
+    #pla{
+    
+        font-size: 20px;
+        background-color: rgb(224, 223, 223);
+        padding: 20px 20px ;
+        border-radius: 50%;
+        position: absolute;
+        left: 160px;
+        top:1040px;
+    }
+    .Get{
+        width: 50%;
+    }
+    .design{
+        font-size: 25px;
+        line-height: 33px;
+        margin-bottom: 20px;
+        font-weight: lighter;
+    }
+    .create{
+        width: 60%;
+    }
+   
+    }
+@media only screen and (min-width: 1024px){
+*{
+    /* border: 1px solid red solid red; */
+ 
+
+}
+
+
+
+.sec1{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red solid blue; */
+    padding: 10px 0px;
+    
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;   
+}
+.nav img{
+    width: 15%;
+}
+.nav ul{
+    display: block;
+}
+.nav ul li{
+   float: left; 
+   font-size: 16px;
+}
+.nav ul li a{
+    padding:0 30px;
+    color: white;
+  transition: 2s;
+  font-family: poppins;
+
+   
+}
+.nav ul li a:hover{
+    color: rgb(163, 160, 160);
+    border-bottom: 1px solid red solid rgb(180, 178, 178);
+    
+
+
+  
+}
+.no{
+    font-size: 25px;
+    width: 100%;
+    text-shadow: 1px solid red 1px solid red 2px rgba(0,0,0,0.3); 
+}
+h1{
+    font-size: 60px;
+    margin-top: 50px;
+}
+.login{
+
+ margin-left: 0px;
+}
+.hambugger{
+display: none;
+
+}
+.text{
+width: 50%;
+height: 50%;
+margin: auto;
+}
+p{
+text-align: center;
+font-size: 23px;  
+line-height: 30px;
+}
+.box{
+margin-top: 40px; 
+}
+.small{
+width: 17%;
+height: 30%;
+padding: 15px 0;
+
+}
+.smal{
+width: 10%;
+height: 30%;
+padding: 10px 0;
+
+}
+
+
+.video{
+    width: 80%;
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.choose{
+    width: 20%;
+   padding:10px 0px ; 
+   font-weight: bold;
+   text-transform: uppercase;
+   margin-top: 50px;
+}
+.The{
+   font-size: 65px;
+   font-weight: bold;
+   text-transform: uppercase;
+   padding-top: 70px;
+
+    
+}
+.Quick{
+    
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;   
+}
+#pla{
+    
+    font-size: 25px;
+    background-color: rgb(224, 223, 223);
+    padding: 30px 30px ;
+    border-radius: 50%;
+    position: relative;
+    left: 650px;
+    top: 350px;
+}
+.To{
+    font-family:  Arial, Helvetica, sans-serif;
+    text-shadow: 1px solid red 1px solid red 2px rgba(0,0,0,0.3); 
+}
+.Get{
+   
+    width: 12%;
+    font-size: 15px;
+   
+}
+.box2{
+    flex-direction: row;
+}
+.design{
+    
+text-align: left;
+}
+.one{
+  
+}
+.two{
+  
+}
+.image{
+display: block;
+
+}
+strong{
+   text-align: right;
+}
+.speed{
+    text-align: left;
+}
+.para{
+    text-align: left;
+}
+.create{
+   float: left; 
+}
+}

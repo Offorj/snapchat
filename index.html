@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <title>Microweber</title>
+</head>
+<body>
+    <div class="container">
+      <section class="sec1">
+        <nav class="nav">
+            <img src="image/images-removebg-preview.png" alt="icon">
+            <ul>
+                <li><a href="#">My Websites</a></li>
+                <li><a href="#">Templates</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">Solutions</a></li>
+            </ul>
+            <div class="login">
+                <h3>Login</h3>
+            </div>
+            <div class="hambugger">=</div>
+        </nav>
+       
+      </section>
+       
+        <h1>Create a <br> <span class="smart"></span><br> Site...</h1>
+
+       <div class="text">
+        <p class="no">No-coding platform for creating websites of all kinds.Make it easy, with 450+ pre-defined layouts, created for you.</p>
+       </div> 
+
+        <div class="box">
+            <div class="small">CREATE A WEBSITE</div>
+            <div class="smal">LOG IN</div>
+        </div>
+
+        <div class="box1">
+         <h1 class="The">The easiest way to create a <br> website</h1>
+         <p class="Quick">Quick, easy and no-code</p>
+         <p class="choose">Choose a template</p>
+         <span class="fa fa-play" id="pla"></span>
+         <div class="vid">
+            <video  controls  class="video" >
+                <source src="video/liveedit.mp4" type="video/mp4">
+              </video>
+         </div>
+         <p class="To">To create a website is one of the easiest things you can do! <br> With Microweber you can create your websites in just a few minutes.</p>
+         <p class="Get">Get Started</p>
+        
+        </div>
+
+        <div class="box2">
+            <div class="one">
+            <h1 class="design">Designed For <br> Web Studios And Marketing Agencies</h1>
+            <h3 class="speed">Speed Up Your Website Making Process.</h3>
+            <p class="para">Increase the speed of making websites <br>Choose from 450+ ready for use layouts and 75+ modules to help make your idea a reality.</p>
+            <p class="create">Create A Website</p>
+           <h3 class="story-author-name">
+            <span class="story-author-image" style="background-image: url(image/2.webp);"></span>
+            Nick Woulters
+
+           </h3>
+           <strong>Founder of a Web & Marketing Agency</strong>
+           <!-- <blockquote>“With the help of the Microweber team, we managed to launch several very good websites for our clients. The CMS is very functional, easy-to-use and has great potential for developing marketing strategies, as well as offers multilingual support. I can recommend trying it yourself to see that it’s a software that will get the job done very quickly and easily.”</blockquote> -->
+            </div>
+            <div class="two">
+            <img src="image/1.jpg" alt="" class="image">
+              <img src="image/2.jpg" alt="" class="image" style="float: right;">
+              <img src="image/3.jpg" alt="" class="image">
+              <img src="image/4.jpg" alt="" class="image" style="float: right;">
+              <img src="image/5.jpg" alt="" class="image" style="float: right;">
+              <img src="image/6.jpg" alt="" class="image">
+              <img src="image/7.jpg" alt="" class="image" style="float: right;">
+              <img src="image/8.jpg" alt="" class="image">
+              <img src="image/9.jpg" alt="" class="image" style="float: right;">
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".smart",{
+            strings:["BEAUTIFUL", "E-COMMERCE", "ENTERPRICE", "PORTFOLIO", "BLOG"],
+            typeSpeed:100,
+            backSpeed:50,
+            loop:true
+        })
+
+        window.addEventListener('scroll', function() {
+        var nav = document.querySelector('nav');
+        var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollPosition > 0) {
+            nav.style.position = 'fixed';
+            nav.style.top = '0';
+            nav.style.width = '100%';
+            nav.style.height = 'auto'
+            nav.style.zIndex = '1000'; // Ensure the nav bar stays on top of other content
+            nav.style.backgroundColor = 'black'
+
+        } else {
+            nav.style.position = 'static';
+            nav.style.top = '';
+            nav.style.width = '';
+            nav.style.height = ' ';
+            nav.style.zIndex = '';
+            nav.style.backgroundColor = ' ';
+            
+        }
+    });
+
+
+    </script>
+</body>
+</html>
